@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: nginx
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  url: https://github.com/Dipta-1999/flux-practice-01.git
+  ref:
+    branch: main
