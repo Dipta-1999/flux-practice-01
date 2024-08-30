@@ -1,8 +1,8 @@
-apiVersion: source.toolkit.fluxcd.io/v1
+apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: nginx
-  namespace: flux-system
+  namespace: practice-01
 spec:
   interval: 1m0s
   url: https://github.com/Dipta-1999/flux-practice-01.git
